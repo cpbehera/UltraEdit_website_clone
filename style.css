@@ -15,6 +15,9 @@ button a{
     text-decoration: none;
     color: #fff;
 }
+input:focus{
+    outline-color: #00B6D1;
+}
 .flex{
     display: flex;
 }
@@ -164,7 +167,7 @@ main .container button a{
 .newsletter{
     background-color: #222222;
     color: #fff;
-    padding: 30px 100px;
+    padding: 50px 100px;
 }
 .newsletter_subscribe{
     justify-content: space-around;
@@ -175,7 +178,7 @@ main .container button a{
     text-align: center;
 }
 .newsletter_subscribe .join h2{
-    font-weight: 700;
+    font-weight: 500;
     padding: 10px 0;
 }
 .newsletter_subscribe .join h6{
@@ -230,4 +233,55 @@ main .container button a{
     cursor: pointer;
     height: 40px;
     margin-top: 10px;
+}
+
+.newsletter_trial{
+    padding: 0 60px;
+}
+.newsletter_trial h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+.newsletter_trial p{
+    margin: 15px 0;
+}
+
+/* footer */
+footer{
+    background-color: #F9F9F9;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 50px 100px;
+}
+footer .links_container h4{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+footer .links_container ul li{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+footer .links_container ul li a{
+    font-size: 14px;
+}
+footer .links_container p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+footer .links_container input[type="text"]{
+    width: 220px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid rgba(128, 128, 128, 0.315);
+    border-radius: 5px;
+    font-size: 14px;
+}
+footer .links_container button{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #00B6D1;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
 }
