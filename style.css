@@ -249,6 +249,8 @@ main .container button a{
 /* footer */
 footer{
     background-color: #F9F9F9;
+}
+footer .links_container{
     align-items: flex-start;
     justify-content: space-around;
     padding: 50px 100px;
@@ -284,4 +286,26 @@ footer .links_container button{
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
+}
+
+footer .copyright_section{
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright_section p{
+    font-size: 12px;
+    width: 300px;
+    margin-top: 10px;
+}
+.copyright_section .social_icon a{
+    color: #222222;
+}
+.copyright_section .social_icon i{
+    font-size: 24px;
+    margin: 0 6px;
+    transition: all 0.2s ease-in;
+}
+.copyright_section .social_icon i:hover{
+    transform: scale(1.08);
 }
