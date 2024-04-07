@@ -247,6 +247,7 @@ main .container button a{
 }
 
 /* footer */
+
 footer{
     background-color: #F9F9F9;
 }
@@ -308,4 +309,42 @@ footer .copyright_section{
 }
 .copyright_section .social_icon i:hover{
     transform: scale(1.08);
+}
+/* utility */
+.utility{
+    padding: 20px;
+    justify-content: space-between;
+}
+.utility .cookies{
+    position: fixed;
+    bottom: -10px;
+    background-color: #222222;
+    color: #fff;
+    padding: 5px 10px 15px 10px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.cookies:hover{
+    padding-bottom:20px;
+}
+.cookies h5{
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.utility .up_arrow{
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    background-color: #00b5d1de;
+    padding: 20px;
+    cursor: pointer;
+}
+.utility .up_arrow:hover{
+    background-color: #00B6D1;
+}
+.up_arrow i{
+    font-size: 25px;
+    color: #fff;
 }
